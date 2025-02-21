@@ -104,3 +104,9 @@ console.log('ternaryni ikki xil toifasi (? va &&)');
 logTitle(
 	'------------------------------------------------Vazifalar-------------------------------------------------'
 );
+
+// 1 html css va js ni ulab welcome messageni consolega oling.
+// 2 htmlda bodyni ichida script tag ochib u yerda 2 ta o'zgaruvchi yarating va uni yigindisini consoleda ko'rsating
+// 3. Bizga bitta allowed degan funksiya kk va u o'zida param kutadi va paramni tekshiradi 18 dan katta yoki kichik.
+// 4. Function expression ni ishlamasligini ko'rsating oldin chaqirib va tushuntirib bering.
+// 5 Bizga 1 ta o'zgaruvchi kk  va uni qiymatini && operator bilan tekshirib agar (qiymat bo'lsa) bor deb consoleda ko'rsating
