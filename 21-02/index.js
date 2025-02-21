@@ -52,9 +52,7 @@ function getMyName(ism1, ism2, ism3) {
 }
 
 getMyName(name1, surname, middleName);
-
 const num1 = 20;
-
 let avarage = num1 / 2;
 // console.log(avarage);
 logTitle(
@@ -68,4 +66,41 @@ findAvarage(33);
 
 logTitle(
 	'------------------------------------------------Yangi dars-------------------------------------------------'
+);
+
+// ternary operator
+let num = 6;
+
+num ? console.log('Bor') : console.log('Yoq');
+num && console.log('hey');
+
+// function declaration
+myFunction();
+function myFunction() {
+	console.log('tepadagi func');
+}
+
+// function expression
+const myFunc = function () {
+	console.log(2 + 2);
+};
+myFunc();
+
+var myArrowFunc = () => {
+	console.log(2 + 2);
+};
+myArrowFunc;
+logTitle(
+	'------------------------------------------------Keywords-------------------------------------------------'
+);
+console.log('style ulash turlari');
+console.log('script ulash turlari');
+console.log('V8 engine va node farqi');
+console.log('function turlari');
+console.log('function declarion');
+console.log('function expression');
+console.log('ternaryni ikki xil toifasi (? va &&)');
+
+logTitle(
+	'------------------------------------------------Vazifalar-------------------------------------------------'
 );
