@@ -68,6 +68,7 @@ isAllowed(arr);
 // .forEach() -> iteratsiya
 
 logTitle('Vazifalar');
+// sad
 
 // 1) bitta funksiya ozida arr sifatida param kutsin va uni logga olsin
 
