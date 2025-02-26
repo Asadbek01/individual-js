@@ -68,10 +68,55 @@ isAllowed(arr);
 // .forEach() -> iteratsiya
 
 logTitle('Vazifalar');
-// sad
 
 // 1) bitta funksiya ozida arr sifatida param kutsin va uni logga olsin
 
 // 2) tepadagi funksiyaga kiritilagan arrayni index bo'ylab olsin.
 
 // 3) yangi funksiya kk o'zida array of objectlarni param sifatida kutsin va har bir objectni arraydan chiqarsin
+
+const arr4 = ['bir', 1, 2, 3, 4, 5, 6, 7, 8, 10, 11];
+
+// function logArray(param) {
+// 	// const uzunligi = arr4.length - 1;
+
+// 	// const oxirgiIndex = arr4[arr4.length - 1];
+
+// 	const birinchiIndex = param[0];
+
+// 	// console.log(oxirgiIndex);
+// 	console.log(birinchiIndex);
+// }
+
+// logArray(arr4);
+
+const users = [
+	{
+		name: 'Asadbek',
+		age: '24',
+		isAdmin: true,
+	},
+	{
+		name: 'Abdurauf',
+		age: '24',
+		isAdmin: false,
+	},
+	{
+		name: 'Duryodbek',
+		age: '24',
+		isAdmin: false,
+	},
+];
+
+getData(users);
+function getData(param) {
+	param.forEach(obj => {
+		console.log(obj);
+	});
+}
+
+function postData() {
+	consolr.log('hey');
+}
+
+const getData = function () {};
