@@ -85,3 +85,25 @@ let num = 8;
 
 // num ? console.log('Bor') : console.log('Yoq');
 num && console.log('Bor');
+
+//  funksiya kk nome getArrayElements va u o'zida arrayofobject param kutsin. array of object o'zida array property saqlasin.
+
+// const data = ['banan', 'olma'];
+
+const data = [
+	{
+		name: 'asadbek',
+	},
+	{
+		name,
+	},
+	{},
+];
+
+function getArrayElements(param) {
+	param.forEach(obj => {
+		console.log(obj);
+	});
+}
+
+getArrayElements(data);
