@@ -164,7 +164,9 @@ const getArrowFunc = () => {};
 // 1) Array yarating: bo'sh bo'lsin.
 // 2) U arrayni push metodi orqali 5 element bilan to'ldiring.
 
-// 3) Bo'sh Object yarating uni ham .property bilan to'ldiring. name, age, email
+// 3) Bo'sh Object yarating uni ham .property bilan to'ldiring. name, age, email.
+
+// 4) To'ldirilgan objectni name propertisini yangilang.
 
 // extra:
 // 1)  // 1)  2 ta o'zgaruvchi yasang va ularga qiymat bering. Va qiymatlarni bir biriga qo'shib alohida o'zgaruvchiga oling. Va natijani consolega oling.
