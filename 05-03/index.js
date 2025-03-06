@@ -158,3 +158,25 @@ const getFuncExp = function () {};
 
 //  Arrow function
 const getArrowFunc = () => {};
+
+// ------------------------------------ Vazifalar ------------------------------------
+
+// 1) Array yarating: bo'sh bo'lsin.
+// 2) U arrayni push metodi orqali 5 element bilan to'ldiring.
+
+// 3) Bo'sh Object yarating uni ham .property bilan to'ldiring. name, age, email
+
+// extra:
+// 1)  // 1)  2 ta o'zgaruvchi yasang va ularga qiymat bering. Va qiymatlarni bir biriga qo'shib alohida o'zgaruvchiga oling. Va natijani consolega oling.
+// 2)  Tepadagi yaratilgan 2 ta o'zgaruvchini if else bilan tenglang agar teng bo'lsa teng bo'lmasa teng emas.
+// 3) 2 savolni ternary bilan qiling.
+
+// 4) getName nomli funksiya yarating va funksiyadan tashqarida name nomli o'zgaruvchi ochib unga qiymat berib va uni getName nomli functionda consolega oling.
+
+// 5) object yarating va unga name, email, address, nomlar va ularga qiymat bering.
+
+// 6)  array yarating va ichiga 6 ta element joylang, misol uchun (mevalar)
+
+// 7) 5 savolda yaratilgan objectdan addressni consolega oling.
+// 8) 6 savoldagi yaratilgan arraydan oxirgi elemntni .lenghth bilan oling.
+// 9) checkMeva nomli funksiya yarating va uni ichida 6 savoldagi yaratilgan mevalarnini 3-indexini tekshiring. If elsedan foydalaning.
