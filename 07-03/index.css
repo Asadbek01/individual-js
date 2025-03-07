@@ -1,0 +1,9 @@
+.h1-tag {
+	color: red;
+}
+#h1-tag {
+	color: blue;
+}
+h1 {
+	color: green;
+}
