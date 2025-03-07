@@ -166,6 +166,15 @@ const getArrowFunc = () => {};
 
 // 3) Bo'sh Object yarating uni ham .property bilan to'ldiring. name, age, email.
 
+const emptyObj = {};
+
+emptyObj.name = 'Asad';
+emptyObj.email = 'gmaail';
+emptyObj.age = '23';
+
+emptyObj.name = 'Azamjonov';
+console.log(emptyObj);
+
 // 4) To'ldirilgan objectni name propertisini yangilang.
 
 // extra:
@@ -182,3 +191,12 @@ const getArrowFunc = () => {};
 // 7) 5 savolda yaratilgan objectdan addressni consolega oling.
 // 8) 6 savoldagi yaratilgan arraydan oxirgi elemntni .lenghth bilan oling.
 // 9) checkMeva nomli funksiya yarating va uni ichida 6 savoldagi yaratilgan mevalarnini 3-indexini tekshiring. If elsedan foydalaning.
+
+// 4)
+
+// let name = 'Asad';
+
+// function getName() {
+// 	console.log(name);
+// }
+// getName();
