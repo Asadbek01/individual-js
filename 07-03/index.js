@@ -21,4 +21,3 @@
 // const h1 = document.getElementById('h1-tag');
 
 const button = document.getElementById('h1');
-console.log(button);
