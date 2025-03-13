@@ -1,14 +1,15 @@
-// const secret = '1234';
-// function getSecret() {
-// 	return {
-// 		updateSecret: param => {
-// 			param = '435345345';
-// 		},
-// 	};
-// }
+const secret = '1234';
+function getSecret() {
+	return {
+		updateSecret: param => {
+			param = '435345345';
+			console.log(param);
+		},
+	};
+}
 
-// let secretObj = getSecret();
-// console.log(secretObj.updateSecret(secret));
+let secretObj = getSecret();
+secretObj.updateSecret(secret);
 
 // const allLists = document.querySelectorAll('#li-elemnent');
 // allLists.forEach((value, index) => {
@@ -27,28 +28,28 @@
 // 	console.log(e.target.innerText);
 // });
 
-const arr = [
-	{},
-	'Duryodbek',
-	23,
-	true,
-	['tennis', 'football', { name: 'Duryodbek' }],
-	{ name: 'Asadbek', age: 23 },
-];
+// const arr = [
+// 	{},
+// 	'Duryodbek',
+// 	23,
+// 	true,
+// 	['tennis', 'football', { name: 'Duryodbek' }],
+// 	{ name: 'Asadbek', age: 23 },
+// ];
 
-const obj = {
-	name: 'Duryodbek',
-	age: 23,
-	isMarried: true,
-	hobbies: ['tennis', 'football'],
-	friend: {
-		name: 'Asadbek',
-		age: 23,
-	},
-};
+// const obj = {
+// 	name: 'Duryodbek',
+// 	age: 23,
+// 	isMarried: true,
+// 	hobbies: ['tennis', 'football'],
+// 	friend: {
+// 		name: 'Asadbek',
+// 		age: 23,
+// 	},
+// };
 
-const slicedArray = arr.slice(0, 5);
-console.log(slicedArray);
+// const slicedArray = arr.slice(0, 5);
+// console.log(slicedArray);
 
 // Keywords
 
@@ -69,3 +70,58 @@ console.log(slicedArray);
 
 // 5. inputlarga qiymat kiritilganda, submit tugmasi bosilganda, inputlardagi qiymatlarni consolga chiqaring
 // 6. Agar inputlarga qiymat kiritilmagan bo'lsa, consolga "Iltimos, inputlarni to'ldiring" degan xabarni chiqaring
+
+// Vazifalar: 12-03
+
+// 1-savol
+const arr = [
+	{},
+	'Duryodbek',
+	23,
+	true,
+	['tennis', 'football', { name: 'Duryodbek' }],
+	{ name: 'Asadbek', age: 23 },
+];
+
+// Topshiriq:
+// Arraydagi har bir elementning turi (type) ni aniqlang va ularni konsolga chiqaring.
+// Arraydagi 4-indeksdagi arrayning 2-elementidan (obyektidan) "name" qiymatini oling va uni o'zgartiring.
+
+// 2-savol.
+const obj = {
+	name: 'Duryodbek',
+	age: 23,
+	isMarried: true,
+	hobbies: ['tennis', 'football'],
+	friend: {
+		name: 'Asadbek',
+		age: 23,
+	},
+};
+
+// Topshiriq:
+// Obyektga yangi "education" property qo'shing, unga obyekt sifatida qiymat bering: { university: "TUIT", year: 4 } // dynamic bo'lishligi kk
+// "friend" obyektiga yangi "hobbies" kaliti qo'shing va unga array sifatida kamida 2 ta hobbi kiriting.  // dynamic bo'lishligi kk
+
+// 3- savol.
+const car = {
+	brand: 'Toyota',
+	model: 'Camry',
+	year: 2020,
+	features: ['ABS', 'sunroof', 'bluetooth'],
+	owner: {
+		name: 'Anvar',
+		age: 35,
+	},
+};
+
+// Topshiriq:
+// 1. car obyektiga dinamik tarzda yangi 'price' property qo'shing va unga qiymat bering
+// 2. owner obyektiga dinamik tarzda 'address' property qo'shing va unga qiymat bering
+// 3. car obyektining barcha property va qiymatlarini konsolga chiqaring
+
+// 4-savol
+// Topshiriq:
+// 1. Ikki sonni qo'shuvchi oddiy funksiya yozing
+// 2. Yuqoridagi funksiyani arrow function ko'rinishida qayta yozing
+// 3. Parametr sifatida array qabul qilib, uning elementlarining yig'indisini qaytaruvchi funksiya yozing. // extra
