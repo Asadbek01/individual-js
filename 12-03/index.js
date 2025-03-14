@@ -82,6 +82,13 @@ const arr = [
 	['tennis', 'football', { name: 'Duryodbek' }],
 	{ name: 'Asadbek', age: 23 },
 ];
+arr[4][2]['name'] = 'Tursunboev';
+
+console.log(arr);
+
+// arr.forEach((item, index) => {
+// 	// console.log(`${index}: type is ${typeof item}`);
+// });
 
 // Topshiriq:
 // Arraydagi har bir elementning turi (type) ni aniqlang va ularni konsolga chiqaring.
@@ -125,3 +132,20 @@ const car = {
 // 1. Ikki sonni qo'shuvchi oddiy funksiya yozing
 // 2. Yuqoridagi funksiyani arrow function ko'rinishida qayta yozing
 // 3. Parametr sifatida array qabul qilib, uning elementlarining yig'indisini qaytaruvchi funksiya yozing. // extra
+
+// 5-savol
+// funksiya kk param bilan
+
+// param o'zida array of numbers saqlasin
+
+let arr1 = [1, 2, 3, 4];
+let arr2 = [];
+const sum = param => {
+	param.forEach(elem => arr2.push(elem * 2));
+};
+
+sum(arr1);
+
+console.log(arr2);
+
+// for and map
