@@ -11,10 +11,10 @@
 const input = document.getElementById('text');
 const submitBtn = document.getElementById('submit-btn');
 
-const ulElement = document.getElementById('ul-element');
+const olELement = document.getElementById('ordered-list');
 
 submitBtn.addEventListener('click', e => {
-	ulElement.innerHTML += `<li>${input.value}</li>`;
+	olELement.innerHTML += `<li>${input.value} ${'2-chi qiymat'}</li>`;
 });
 
 //  Vazifa

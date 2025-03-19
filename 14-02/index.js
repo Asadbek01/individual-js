@@ -23,6 +23,7 @@ for (let i = 0; i < arr.length; i++) {
 // conatiner.innerText = 'Hello';
 const usersMockData = [
 	{
+		// key value pairs => nom, qiyamt juftlik
 		name: 'Asadbek',
 		age: 12,
 	},
@@ -42,25 +43,44 @@ const usersMockData = [
 		name: 'Tursunboev',
 		age: 19,
 	},
+	{
+		name: 'Lorem',
+		age: 19,
+	},
 ];
+console.log(usersMockData.length);
+// usersMockData.forEach(val => {
+// 	console.log(val);
+// });
+
+for (let i = 6; i < usersMockData.length; i++) {
+	console.log(usersMockData[i]);
+}
 
 // div ochib unga id bering htmlda
 
 // js da uni id bilan oling.
 
 // mockdatani objectdan tashqariga chiqaring.
-const conatiner = document.getElementById('container');
-const btn = document.getElementById('get-data');
-btn.addEventListener('click', () => {
-	getData();
-});
+// const conatiner = document.getElementById('container');
+// const btn = document.getElementById('get-data');
+// btn.addEventListener('click', () => {
+// 	getData();
+// });
 
-const getData = () => {
-	for (let i = 0; i < usersMockData.length; i++) {
-		// console.log(usersMockData[i]);
-		if (usersMockData[i].age > 19) {
-			conatiner.innerHTML += `<p>Voyaga yetgan bollar: ${usersMockData[i].name}, yoshi: ${usersMockData[i].age}</p>`;
-		}
-	}
-};
+// const getData = () => {
+// 	for (let i = 0; i < usersMockData.length; i++) {
+// 		// console.log(usersMockData[i]);
+// 		if (usersMockData[i].age > 19) {
+// 			conatiner.innerHTML += `<p>Voyaga yetgan bollar: ${usersMockData[i].name}, yoshi: ${usersMockData[i].age}</p>`;
+// 		}
+// 	}
+// };
 // console.log(conatiner.innerText);
+
+let getName = document.getElementById('ism');
+let getFam = document.getElementById('fam');
+
+submitBtn.addEventListener('click', () => {
+	ol;
+});
