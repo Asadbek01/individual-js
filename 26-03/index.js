@@ -81,20 +81,17 @@ const box = document.getElementById('box');
 const arr1 = [1];
 arr.map(item => {
 	console.log(item);
-
 	box.innerHTML += `
-	   <div class="card" style="width: 18rem;">
-	        <img src="https://s3.amazonaws.com/images.seroundtable.com/google-links-1510059186.jpg" class="card-img-top"
-	            alt="...">
-	        <div class="card-body">
-	            <h5 class="card-title">${item.title}</h5>
-	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-	                card's
-	                content.</p>
-	            <a href="#" class="btn btn-primary">Go somewhere</a>
-	        </div>
-	    </div>
-		`;
+
+	<div class="card" style="width: 18rem;">
+  <img src="https://s3.amazonaws.com/images.seroundtable.com/google-links-1510059186.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${item.id}</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+`;
 	// const card = document.createElement('div');
 	// card.classList.add('card');
 	// card.style.width = '18rem';
